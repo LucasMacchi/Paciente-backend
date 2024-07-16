@@ -22,18 +22,15 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
-## Test
+## Routes
 
-```bash
-# unit tests
-$ npm run test
+- Pacient
+    - GET /pacient/all --> Returns all pacients
+    - GET /pacient/:dni --> Returns pacients with specific DNI
+    - POST /pacient/create --> Creates a pacients
+    - DELETE /pacient/delete/:dni --> Deletes a pacient using dni
+    - PATCH /pacient/edit/:dni --> Edits an existing pacient using dni
 
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
-```
 
 ## Support
 
